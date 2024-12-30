@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizar PDF</title>
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            background-color: pink; /* Fundo rosa */
+            font-family: Arial, sans-serif; /* Fonte básica */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Organiza as imagens verticalmente */
+            align-items: center;
+            gap: 20px; /* Espaçamento entre as imagens */
+        }
+        img {
+            max-width: 80%; /* Define um tamanho máximo para as imagens */
+            height: auto;
+            border-radius: 8px; /* Bordas arredondadas */
+        }
+    </style>
 </head>
 <body>
     <h1>Meu Portfólio</h1>
-    <object data="https://drive.google.com/file/d/1aqLVHg0atx70yS7ej2x4aKGr6HH-cz6W/preview" type="application/pdf" width="100%" height="600px"></object>
+    <div class="container">
+        <!-- Imagens do portfólio -->
+        <img src="https://i.imgur.com/E3BAb54.jpeg" alt="Imagem 1">
+        <img src="https://i.imgur.com/D5vXRAq.jpeg" alt="Imagem 2">
+        <img src="https://i.imgur.com/lajxubE.jpeg" alt="Imagem 3">
+        <img src="https://i.imgur.com/tox4BCj.jpeg" alt="Imagem 4">
+        <img src="https://i.imgur.com/6esmUdl.jpeg" alt="Imagem 5">
+        <img src="https://i.imgur.com/xGIsC64.jpeg" alt="Imagem 6">
+        <img src="https://i.imgur.com/78pJaZo.jpeg" alt="Imagem 7">
+        <img src="https://i.imgur.com/gR5atT6.jpeg" alt="Imagem 8">
+        <img src="https://i.imgur.com/yR7r6Py.jpeg" alt="Imagem 9">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
 </body>
 </html>
